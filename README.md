@@ -11,9 +11,15 @@ my versions:
 - in your database run sql script or perform import from `db_dump/vacation.sql`
 - create `.env` file near `.env-example`, copy content from `.env-example`
 - set correct variables in `.env` for the database connection
-- `npm install`
-- `cd src`
-- `node main.js`
+- ```sh
+  npm install
+  ```
+- ```sh
+  cd src
+  ```
+- ```sh
+  node main.js
+  ```
 
 Node.js server will run on `localhost:3000`
 
