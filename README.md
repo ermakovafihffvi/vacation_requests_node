@@ -23,6 +23,8 @@ my versions:
 
 Node.js server will run on `localhost:3000`
 
+# TO DO
+Cover all routes with tests, add migrations for the DB
 # Project description
 I used `express` for starting a server and `knex` for managing database. `main.js` contains settings, and starts a server.
 - `controller/` contains controllers with `init()` method called in `main.js` to add routes handling 
